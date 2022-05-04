@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>product.html</title>
+
+    <!-- font awesome cdn link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- custom css file link -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header section start page -->
+
+    <header class="header">
+        <a href="index.html"><img src="img/footer-logo.png" alt=""></a>
+
+        <ul class="navbar">
+            <li>
+                <a href="index.html">Trang Chủ</a>
+            </li>
+            <li class="active">
+                <a href="./product_details.html">Bánh Ngọt</a>
+                <ul class="children">
+                    <li><a href="./product_details.html">Bánh Bông Lan</a></li>
+                    <li><a href="./product_details.html">Bánh Kem Socola</a></li>
+                </ul>
+            </li>
+            <li>
+                <a href="product.html">Bánh Mỳ</a>
+                <ul class="children">
+                    <li><a href="product.html">Bánh Mỳ Lúa Mạch</a></li>
+                    <li><a href="product.html">Bánh Mỳ Ruốc</a></li>
+                </ul>
+            </li>
+            
+            <li><a href="Blog.html">Blog</a></li>
+        </ul>
+
+        <div class="icons">
+           
+            <div id="menu-btn" class="fas fa-bars">  </div>
+            <div id="search-btn" class="fas fa-search">
+                <input id="more" type="checkbox" checked="checked" hidden />
+                
+                    <div id="form_search">
+                        <input type="text" class="input_search">
+                        <button type="button" class="btn_search"><i class="fas fa-search"></i></button>
+                    </div>
+                 
+            </div>
+            <div id="cart-btn" class="fas fa-shopping-cart btn-btn-click "></div>
+            <div id="login-btn" class="fas fa-user btn-btn-click-icon">
+                
+            </div>
+        </div>
+
+    </header>
+ 
+
+    <!-- Sản phẩm  -->
+
+    <div class="heading heading-product">
+        <h1>Sản Phẩm</h1>
+    </div>
+
+
+    <!-- Sản Phẩm section -->
+
+    <section class="products">
+
+        <div class="filter">
+            <div class="filter-left">
+                <select name="" id="">
+                    <option value="" selected>Tất Cả</option>
+                    <option value="">Sản Phẩm Mới</option>
+                    <option value="">sản Phẩm Yêu Thích</option>
+                    
+                </select>
+                <div id="form_search">
+                    <input type="text" class="input_search" placeholder="search">
+                    <button type="button" class="btn_search"><i class="fas fa-search"></i></button>
+                </div>
+            </div>
+            <div class="filter-right">
+                <select name="" id="">
+                    <option value="" selected>Tất Cả</option>
+                    <option value="">Bánh Mỳ Lúa Mạch</option>
+                    <option value="">Bánh Bông Lan</option>
+                    <option value="">Bánh Kem</option>
+                </select>
+            </div>
+        </div>
+        <div class="box-container">
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Mì Mật Ong</h3>
+                    <div class="price">35.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Mì Nho</h3>
+                    <div class="price">$30.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Gato Phủ Socolate</h3>
+                    <div class="price">250.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Bông Lan Hoa Quả</h3>
+                    <div class="price">80.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Mì Nho</h3>
+                    <div class="price">$30.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Gato Phủ Socolate</h3>
+                    <div class="price">250.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Bông Lan Hoa Quả</h3>
+                    <div class="price">80.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Bông Lan Vị Vani</h3>
+                    <div class="price">40.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Bông Lan Hoa Quả</h3>
+                    <div class="price">80.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Red Velvet</h3>
+                    <div class="price">20.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Red Velvet Loại Nhỏ</h3>
+                    <div class="price">85.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="box">
+                <div class="icons">
+                    <a href="product_details.html" class="fas fa-shopping-cart"></a>
+                    <a href="product_details.html" class="fas fa-heart"></a>
+                    <a href="product_details.html" class="fas fa-eye"></a>
+                </div>
+                <div class="img">
+                    <img src="img/product-8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Bánh Bông Lan Socolate</h3>
+                    <div class="price">15.000 đ</div>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="far fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="paginate">
+            <ul>
+                <li><a href=""><</a></li>
+                <li><a href="">1</a></li>
+                <li><a href="">2</a></li>
+                <li><a href="">3</a></li>
+                <li><a href="">></a></li>
+            </ul>
+        </div>
+        <h1 class="title"> <span></span> <a href="#"></a> </h1>
+    </section>
+   
+
+    <div class="space"></div>
+    <!-- footer section start -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <img src="img/footer-logo.png" alt="">
+                <a href="index.html"> <i class="fas fa-arrow-right"></i> Trang Chủ</a>
+                <a href="product.html"> <i class="fas fa-arrow-right"></i> Bánh Ngọt</a>
+                <a href="product.html"> <i class="fas fa-arrow-right"></i> Bánh Mỳ</a>
+                <a href="Blog.html"> <i class="fas fa-arrow-right"></i> Blog</a>
+            </div>
+
+            <div class="box">
+                <h3>Theo Dõi Cửa Hàng</h3>
+                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="#"> <i class="fab fa-youtube"></i> youtube </a>
+            </div>
+
+            <div class="box">
+                <h3>Cửa Hàng Bánh Ngọt CAKE</h3>
+                <p>Tên đơn vị: Công ty Cổ phần Bánh ngọt CAKE Số giấy chứng nhận đăng ký kinh doanh: 0104992706 Ngày
+                    cấp: 21/07/2010 Nơi cấp: Sở Kế hoạch và Đầu tư Tp. Hà Nội</p>
+                <form action="">
+                    <input type="email" placeholder="Nhập email của bạn">
+                    <input type="submit" value="Gửi" class="btn">
+                </form>
+                <img src="img/payment.png" class="payments" alt="">
+            </div>
+        </div>
+    </section>
+    
+    <section class="credit">Cửa Hàng Bánh Ngọt Cake</section>
+
+
+
+    <!-- custom js file link -->
+    <script src="main.js"></script>
+</body>
+
+</html>
